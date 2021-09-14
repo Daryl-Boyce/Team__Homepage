@@ -18,22 +18,25 @@
     <!---------->
     <!------------>
     <!-- Header -->
-    <header>
-        <div class="header__inner">
-            <img src="#" alt="Sharon Wray Accoutancy Logo" class="header__inner__logo">
-            <nav>
-                <ul>
-                    <li><a href="#">Switch Accountants</a></li>
-                    <li><a href="#">FAQ's</a></li>
-                    <li><a href="#">Contact US</a></li>
-                </ul>
-            </nav>
-            <div>
-                <i class="fas fa-phone-alt"></i>
-                01953 687077
-            </div>
-        </div>
-    </header>
+    <?php
+        include_once __DIR__ . "/src/header.php"
+    ?>
+    <!-- <header> -->
+        <!-- <div class="header__inner"> -->
+            <!-- <img src="#" alt="Sharon Wray Accoutancy Logo" class="header__inner__logo"> -->
+            <!-- <nav> -->
+                <!-- <ul> -->
+                    <!-- <li><a href="#">Switch Accountants</a></li> -->
+                    <!-- <li><a href="#">FAQ's</a></li> -->
+                    <!-- <li><a href="#">Contact US</a></li> -->
+                <!-- </ul> -->
+            <!-- </nav> -->
+            <!-- <div> -->
+                <!-- <i class="fas fa-phone-alt"></i> -->
+                <!-- 01953 687077 -->
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- </header> -->
     <!------------>
     <!-- Hero -->
     <div class="hero">
