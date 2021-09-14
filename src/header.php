@@ -6,9 +6,9 @@ echo '
     <img src="#" alt="Sharon Wray Accoutancy Logo" class="header__inner__logo">
     <nav>
         <ul>
-            <li><a href="#">Switch Accountants</a></li>
-            <li><a href="#">FAQ&apos;s</a></li>
-            <li><a href="#">Contact US</a></li>
+            <li><a href="/team__homepage/accountants.php">Switch Accountants</a></li>
+            <li><a href="/team__homepage/faqs.php">FAQ&apos;s</a></li>
+            <li><a href="/team__homepage/contact.php">Contact US</a></li>
         </ul>
     </nav>
     <div>

@@ -1,4 +1,7 @@
-@use 'partials/variables.scss';
+@import 'partials/variables.scss',
+     'partials/home.scss',
+     'partials/faqs.scss',
+     'partials/contact.scss';
 
 * {
     box-sizing: border-box;
