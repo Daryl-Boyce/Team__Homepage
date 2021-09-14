@@ -6,6 +6,10 @@
      display: flex;
      flex-direction: column;
      padding: 10px;
+
+     .middle__welcome__header{
+         color: $main;
+     }
  }
 
  // Contact Banner

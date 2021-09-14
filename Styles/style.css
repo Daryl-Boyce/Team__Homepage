@@ -3,6 +3,9 @@
   flex-direction: column;
   padding: 10px;
 }
+.middle__welcome .middle__welcome__header {
+  color: #23284c;
+}
 
 .contact__banner {
   display: flex;
@@ -17,11 +20,18 @@
 }
 
 .header__inner {
+  display: flex;
+  flex-direction: row;
   background-color: #23284c;
   color: #fff;
 }
 .header__inner a {
   color: #fff;
+}
+
+.bottom__nav {
+  display: flex;
+  flex-direction: row;
 }
 
 * {

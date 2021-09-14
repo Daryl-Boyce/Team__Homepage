@@ -1,4 +1,6 @@
 .header__inner {
+    display: flex;
+    flex-direction: row;
     background-color: $main;
     color: $secondary;
 
