@@ -1,3 +1,11 @@
+.header__inner {
+  background-color: #23284c;
+  color: #fff;
+}
+.header__inner a {
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

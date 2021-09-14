@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap"
         rel="stylesheet">
+    <link href="Styles/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8770348bdd.js" crossorigin="anonymous"></script>
     <title>Sharon Wray Accountancy Service</title>
 </head>
@@ -21,23 +22,6 @@
     <?php
         include_once __DIR__ . "/src/header.php"
     ?>
-    <!-- <header> -->
-        <!-- <div class="header__inner"> -->
-            <!-- <img src="#" alt="Sharon Wray Accoutancy Logo" class="header__inner__logo"> -->
-            <!-- <nav> -->
-                <!-- <ul> -->
-                    <!-- <li><a href="#">Switch Accountants</a></li> -->
-                    <!-- <li><a href="#">FAQ's</a></li> -->
-                    <!-- <li><a href="#">Contact US</a></li> -->
-                <!-- </ul> -->
-            <!-- </nav> -->
-            <!-- <div> -->
-                <!-- <i class="fas fa-phone-alt"></i> -->
-                <!-- 01953 687077 -->
-            <!-- </div> -->
-        <!-- </div> -->
-    <!-- </header> -->
-    <!------------>
     <!-- Hero -->
     <div class="hero">
         <div class="hero__inner">
@@ -125,36 +109,9 @@
         <img src="#" alt="large__quote__marks">
     </div>
     <!------------------>
-    <!-- Bottom nav -->
-    <div class="bottom__nav">
-        <div class="bottom__nav__license">
-
-        </div>
-        <div class="bottom__nav__contact__us">
-            <h3>
-                Contact us
-            </h3>
-            <ul>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-            </ul>
-        </div>
-        <div class="bottom__nav__sections">
-
-        </div>
-    </div>
-    <!---------------->
-    <!-- Footer -->
-    <footer>
-        copyright &copy; sharon wray accountancy services.
-        all rights reserved 2018. -sitemap
-    </footer>
-    <!------------>
-    <!---------->
+    <?php
+    include_once __DIR__ . "/src/footer.php"
+    ?>
     <!-------->
 </body>
 
