@@ -19,6 +19,20 @@
   display: flex;
 }
 
+.faq_list_list .faq_question {
+  background-color: #23284c;
+  color: #fff;
+  padding: 5px 10px;
+}
+.faq_list_list .faq_question:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.faq_list_list .faq_answer {
+  border: 1px solid #23284c;
+  padding: 10px;
+}
+
 .header__inner {
   display: flex;
   flex-direction: row;

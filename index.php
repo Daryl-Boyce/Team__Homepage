@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link href="Styles/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8770348bdd.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>Sharon Wray Accountancy Service</title>
 </head>
 
@@ -113,6 +114,10 @@
     include_once __DIR__ . "/src/footer.php"
     ?>
     <!-------->
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="javascript/myscript.js"></script>
 </body>
 
 </html>

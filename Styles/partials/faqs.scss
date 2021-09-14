@@ -1,0 +1,18 @@
+ .faq_list_list {
+
+    .faq_question {
+        background-color: $main;
+        color: $secondary;
+        padding: 5px 10px;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
+    .faq_answer{
+        border: 1px solid $main;
+        padding: 10px;
+    }
+ }
