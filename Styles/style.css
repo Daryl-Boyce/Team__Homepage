@@ -1,3 +1,21 @@
+.middle__welcome {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.contact__banner {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #23284c;
+  color: #fff;
+}
+
+.quote__banner {
+  display: flex;
+}
+
 .header__inner {
   background-color: #23284c;
   color: #fff;

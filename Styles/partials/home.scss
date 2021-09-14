@@ -1,0 +1,25 @@
+// Hero Banner Section
+
+// Welcome Section
+
+ .middle__welcome {
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+ }
+
+ // Contact Banner
+
+ .contact__banner {
+     display: flex;
+     flex-direction: row;
+     padding: 10px;
+     background-color: $main;
+     color: $secondary;
+ }
+
+ // Quote Section
+
+ .quote__banner {
+    display: flex;
+ }
