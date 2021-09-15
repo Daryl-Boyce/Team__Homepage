@@ -40,26 +40,27 @@
                         fill out the below form if you want to reach out to us.
                     </p>
                 </div>
-                <form action="" method="POST" id="contactform">
+                <form action="contact.php" method="POST" id="contact-form">
+                   <input type="hidden" name="action" value="contact-form">
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname">
+                    <input type="text" value id="fname" name="firstname">
 
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname">
+                    <input type="text" value id="lname" name="lastname">
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" value id="email" name="email">
 
                     <label for="phone">Telephone Number</label>
-                    <input type="text" id="phone" name="phone">
+                    <input type="text" value id="phone" name="phone">
 
                     <label for="message">Message</label>
-                    <input type="textarea" id="message" name="message">
+                    <input type="textarea" value id="message" name="message">
 
                     <label for="checkbox">Do you agree?</label>
-                    <input type="checkbox" id="checkbox" name="checkbox"> 
+                    <input type="checkbox" value id="checkbox" name="checkbox"> 
 
-                    <button type="submit">Submit</button>
+                    <button name="submit-m" type="submit" class="btn_send">Submit</button>
                 </form>
             </div>
         </div>
