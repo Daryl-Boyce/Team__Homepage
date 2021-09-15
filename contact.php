@@ -24,7 +24,41 @@
     <?php
         include_once __DIR__ . "/src/header.php"
     ?>
+        <!------------------>
+        <div class="container">
+            <div class="contact_section">
+                <div class="contact_header">
+                    <h3>
+                        Contact Us
+                    </h3>
+                </div>
+                <div class="contact_statement">
+                    <p>
+                        Hey i'm a statement telling you the reasons why you might need to contact us and how is the best way to go about it.
+                        fill out the below form if you want to reach out to us.
+                    </p>
+                </div>
+                <form action="" method="POST">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname">
 
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+
+                    <label for="phone">Telephone Number</label>
+                    <input type="text" id="phone" name="phone">
+
+                    <label for="message">Message</label>
+                    <input type="textarea" id="message" name="message">
+
+                    <label for="checkbox">Do you agree?</label>
+                    <input type="checkbox" id="checkbox" name="checkbox"> 
+                </form>
+            </div>
+        </div>
         <!------------------>
         <?php
     include_once __DIR__ . "/src/footer.php"
