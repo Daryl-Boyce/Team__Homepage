@@ -1,3 +1,6 @@
+
+
+
 // Hero Banner Section
 
 // Welcome Section
@@ -27,3 +30,12 @@
  .quote__banner {
     display: flex;
  }
+
+ .container {
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 40px;
+    }
