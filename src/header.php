@@ -4,7 +4,7 @@ echo '
 <header>
     <div class="header__inner">
         <nav class="top__nav container">
-            <button class="hamburger hamburger--collapse is-active" type="button">
+            <button class="hamburger hamburger--collapse" type="button">
                 <span class="hamburger-box">
                    <span class="hamburger-inner"></span>
                 </span>
