@@ -24,23 +24,25 @@
         include_once __DIR__ . "/src/header.php"
     ?>
     <!-- Hero -->
-    <div class="hero">
-        <div class="hero__inner">
-            <div class="hero__inner__header">
-                <h1 class="hero__inner__header__main">
-                    Fully qualified aat licensed accountant
-                </h1>
-                <hr class="hero__inner__break">
-                <h2 class="hero__header__header__secondary">
-                    Professional and affordable service contact
-                    us today for a free consultation
-                </h2>
-            </div>
-            <div class="hero__inner__services__button">
-                See our services
-            </div>
-            <div class="hero__inner__contact__button">
-                Contact us today
+    <div class="container">
+        <div class="hero">
+            <div class="hero__inner">
+                <div class="hero__inner__header">
+                    <h1 class="hero__inner__header__main">
+                        Fully qualified aat licensed accountant
+                    </h1>
+                    <hr class="hero__inner__break">
+                    <h2 class="hero__header__header__secondary">
+                        Professional and affordable service contact
+                        us today for a free consultation
+                    </h2>
+                </div>
+                <div class="hero__inner__services__button">
+                    See our services
+                </div>
+                <div class="hero__inner__contact__button">
+                    Contact us today
+                </div>
             </div>
         </div>
     </div>
