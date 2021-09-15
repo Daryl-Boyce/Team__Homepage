@@ -1,0 +1,47 @@
+
+//Contact Section Header
+.contact_section {
+    font-family: Poppins, sans-serif;
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .contact_statement {
+        padding: 10px 0;
+    }
+}
+
+//Contact form content
+#contactform {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px;
+    background-color: $main;
+    color: $secondary;
+
+    input {
+        width: 100%;
+        padding: 5px;
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    label {
+        font-size: 1.25rem;
+    }
+
+    button {
+        padding: 5px 10px;
+        color: $main;
+        background-color: $secondary;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 1px solid $main;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

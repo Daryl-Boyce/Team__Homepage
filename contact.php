@@ -31,6 +31,8 @@
                     <h3>
                         Contact Us
                     </h3>
+                    </h3>
+                    <hr class="contact__break">
                 </div>
                 <div class="contact_statement">
                     <p>
@@ -38,7 +40,7 @@
                         fill out the below form if you want to reach out to us.
                     </p>
                 </div>
-                <form action="" method="POST">
+                <form action="" method="POST" id="contactform">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname">
 
@@ -56,6 +58,8 @@
 
                     <label for="checkbox">Do you agree?</label>
                     <input type="checkbox" id="checkbox" name="checkbox"> 
+
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div>
