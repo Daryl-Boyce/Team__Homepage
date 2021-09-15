@@ -28,3 +28,19 @@ header {
         height: 100%;
     }
 }
+
+.hamburger {
+    padding: 10px!important;
+    color: #fff!important;
+    .hamburger-inner {
+        background-color: #fff!important;
+    }
+
+    .hamburger-inner::after {
+        background-color: #fff!important;
+    }
+
+    .hamburger-inner::before {
+        background-color: #fff!important;
+    }
+}

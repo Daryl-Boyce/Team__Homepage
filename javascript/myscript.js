@@ -1,3 +1,12 @@
+    
+    //Header Functions
+    $(".hamburger").click(function (){
+        $(".hamburger").toggleClass("is-active");
+    })
+
+
+    // Faq Page Functions
+
     $(window).on("load", function() {
         $("#answer1").slideUp(0);
         $("#answer2").slideUp(0);
@@ -30,3 +39,4 @@
     $("#question6").click(function () {
         $("#answer6").slideToggle();
     })
+
