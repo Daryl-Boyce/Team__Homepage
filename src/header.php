@@ -4,16 +4,25 @@ echo '
 <header>
     <div class="header__inner">
         <nav class="top__nav container">
+            <div class="top__nav__logo">
+                <h2>
+                    Sharon Wray
+                </h2>
+                <hr class="top__nav__logo__break">
+                <h3>
+                    Accountancy Services                
+                </h3>
+            </div>
+        
             <button class="hamburger hamburger--collapse is-active" type="button">
                 <span class="hamburger-box">
                    <span class="hamburger-inner"></span>
                 </span>
             </button>
          
-            <div>
-                <i class="fas fa-phone-alt"></i>
-                01953 687077
-            </div>
+            <i class="top__nav__phone fas fa-phone-alt"></i>
+            01953 687077
+            
         </nav>
     </div>
 </header>

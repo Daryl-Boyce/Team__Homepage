@@ -64,6 +64,9 @@ header {
 .top__nav {
   display: flex;
   height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .top__nav ul {
   display: flex;
@@ -83,6 +86,10 @@ header {
 }
 .hamburger .hamburger-inner::before {
   background-color: #fff !important;
+}
+
+.top__nav__phone {
+  display: flex;
 }
 
 .bottom__nav {
@@ -121,7 +128,7 @@ header {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #23284c;
+  background-color: white;
 }
 
 .hamburger-box {
@@ -139,7 +146,7 @@ header {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: #23284c;
+  background-color: #fff;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -214,7 +221,7 @@ header {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: #23284c;
+  background-color: white;
 }
 
 .hamburger-box {
@@ -232,7 +239,7 @@ header {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: #23284c;
+  background-color: #fff;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;

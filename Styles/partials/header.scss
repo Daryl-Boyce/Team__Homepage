@@ -21,12 +21,23 @@ header {
 .top__nav {
     display: flex;
     height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 
     ul {
         display: flex;
         width: 50%;
         height: 100%;
     }
+}
+
+.top__nav__logo {
+
+}
+
+.top__nav__logo__break {
+
 }
 
 .hamburger {
@@ -43,4 +54,9 @@ header {
     .hamburger-inner::before {
         background-color: #fff!important;
     }
+}
+
+.top__nav__phone {
+    display: flex;
+
 }
