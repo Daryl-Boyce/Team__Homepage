@@ -28,6 +28,23 @@
   padding: 0px 40px;
 }
 
+.faq_section {
+  font-family: Poppins, sans-serif;
+}
+
+.faq_header {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.faq_statement {
+  padding-bottom: 20px;
+}
+
+.faq_list_list {
+  margin-bottom: 20px;
+}
 .faq_list_list .faq_question {
   background-color: #23284c;
   color: #fff;
@@ -40,6 +57,46 @@
 .faq_list_list .faq_answer {
   border: 1px solid #23284c;
   padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact_section {
+  font-family: Poppins, sans-serif;
+}
+.contact_section h3 {
+  font-size: 2rem;
+}
+.contact_section .contact_statement {
+  padding: 10px 0;
+}
+
+#contactform {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 10px;
+  background-color: #23284c;
+  color: #fff;
+}
+#contactform input {
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+#contactform label {
+  font-size: 1.25rem;
+}
+#contactform button {
+  padding: 5px 10px;
+  color: #23284c;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #23284c;
+}
+#contactform button:hover {
+  cursor: pointer;
 }
 
 header {

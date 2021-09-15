@@ -1,4 +1,19 @@
- .faq_list_list {
+.faq_section {
+    font-family: Poppins, sans-serif;
+}
+
+.faq_header {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.faq_statement {
+    padding-bottom: 20px;
+}
+
+.faq_list_list {
+    margin-bottom: 20px;
 
     .faq_question {
         background-color: $main;
@@ -14,5 +29,6 @@
     .faq_answer{
         border: 1px solid $main;
         padding: 10px;
+        margin-bottom: 20px;
     }
  }

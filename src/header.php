@@ -4,6 +4,7 @@ echo '
 <header>
     <div class="header__inner">
         <nav class="top__nav container">
+<<<<<<< HEAD
             <div class="top__nav__logo">
                 <h2>
                     Sharon Wray
@@ -15,6 +16,9 @@ echo '
             </div>
         
             <button class="hamburger hamburger--collapse is-active" type="button">
+=======
+            <button class="hamburger hamburger--collapse" type="button">
+>>>>>>> a9a6e69f0cd83d9275173913b3320c234d33e895
                 <span class="hamburger-box">
                    <span class="hamburger-inner"></span>
                 </span>
@@ -22,7 +26,7 @@ echo '
          
             <i class="top__nav__phone fas fa-phone-alt"></i>
             01953 687077
-            
+
         </nav>
     </div>
 </header>
