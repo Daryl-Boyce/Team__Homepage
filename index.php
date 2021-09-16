@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="dist/hamburgers.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,400&display=swap"rel="stylesheet">
     <link href="Styles/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8770348bdd.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -31,8 +30,8 @@
                 <div class="hero__inner__header">
                     <h1 class="hero__inner__header__main">
                         Fully qualified aat licensed accountant
+                        <hr class="hero__inner__break">
                     </h1>
-                    <hr class="hero__inner__break">
                     <h2 class="hero__header__header__secondary">
                         Professional and affordable service contact
                         us today for a free consultation
