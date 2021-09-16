@@ -40,3 +40,80 @@
         $("#answer6").slideToggle();
     })
 
+
+    //Contact form input validation
+
+    var EmailRegex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    var characterReg = /^\s*[a-zA-Z0-9\.\!\?\@\-,\s]+\s*$/;
+
+    var validateString = function validateString(value) {
+      if (value.match(characterReg) && value.length > 0) {
+        return true;
+      } else {
+        return false;
+      }
+    };
+
+    var validateEmail = function validateEmail(email) {
+      if (email.match(EmailRegex) && email.length > 0) {
+        return true;
+      } else {
+        return false;
+      }
+    };
+
+    $("#first-name-input").on('input', function () {
+      var isValid = validateString($("#first-name-input").val());
+
+      if (isValid) {
+          //Valid first name input
+      } else {
+          //Invalid first name input
+      }
+    });
+    $("#last-name-input").on('input', function () {
+      var isValid = validateString($("#last-name-input").val());
+
+      if (isValid) {
+          //Valid last name input
+      } else {
+          //Valid last name input
+      }
+    });
+
+    $("#email").on('input', function () {
+        var isValid = validateEmail($("#email").val());
+        if (isValid) {
+          //Valid email functions
+        } else {
+          //Invalid email function
+        }
+      });
+
+      $("#phone").on('input', function () {
+        var isValid = validateEmail($("#phone").val());
+        if (isValid) {
+          //Valid email functions
+        } else {
+          //Invalid email function
+        }
+      });
+
+ // This block will look through the message field for special characters and disable the submit button if any are found.
+
+    $("#message").on('input', function () {
+      var isValid = validateString($("#message").val());
+
+      if (isValid || !$("#message").val()) {
+          //Valid Message input
+      } else {
+          //Invalid Message input
+      }
+    }); // End of input validation.
+
+    $('#contact-form').on("submit", function () {
+      if (!$.trim($('#first-name-input').val()).length) {
+        e.preventDefault();
+        $("#failure-message").removeClass("hidden");
+  }
+})

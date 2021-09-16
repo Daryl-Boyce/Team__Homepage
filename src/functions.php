@@ -1,15 +1,17 @@
 <?php
 
-//create an enquiry
+//create a message
 function createMessage(array $contactData) {
-  $message = new ContactSubmission($contactData);
-  
+
+  $messages = new MessageSubmission($contactData);
+
   $emptyInput = [];
-  if ($message->hasEmptyFields()) {
-    $emptyInput = $message->hasEmptyFields();
+  if ($messages->hasEmptyFields()) {
+    $emptyInput = $messages->hasEmptyFields();
     return false;
   } else {
-  return $message->submitForm();
+    $messages->submitForm();
+    return $messages;
     }
 }
 

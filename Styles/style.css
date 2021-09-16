@@ -70,7 +70,7 @@
   padding: 10px 0;
 }
 
-#contactform {
+#contact-form {
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -78,16 +78,16 @@
   background-color: #23284c;
   color: #fff;
 }
-#contactform input {
+#contact-form input {
   width: 100%;
   padding: 5px;
   font-size: 1rem;
   margin-bottom: 5px;
 }
-#contactform label {
+#contact-form label {
   font-size: 1.25rem;
 }
-#contactform button {
+#contact-form button {
   padding: 5px 10px;
   color: #23284c;
   background-color: #fff;
@@ -95,7 +95,7 @@
   font-weight: 600;
   border: 1px solid #23284c;
 }
-#contactform button:hover {
+#contact-form button:hover {
   cursor: pointer;
 }
 
