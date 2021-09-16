@@ -62,22 +62,26 @@
       }
     };
 
-    $("#first-name-input").on('input', function () {
-      var isValid = validateString($("#first-name-input").val());
+    $("#fname").on('input', function () {
+      var isValid = validateString($("#fname").val());
 
       if (isValid) {
           //Valid first name input
+          $("#fname").css("border", "1px solid green");
       } else {
           //Invalid first name input
+          $("#fname").css("border", "1px solid red");
       }
     });
-    $("#last-name-input").on('input', function () {
-      var isValid = validateString($("#last-name-input").val());
+    $("#lname").on('input', function () {
+      var isValid = validateString($("#lname").val());
 
       if (isValid) {
           //Valid last name input
+          $("#lname").css("border", "1px solid green");
       } else {
           //Valid last name input
+          $("#lname").css("border", "1px solid red");
       }
     });
 
@@ -85,17 +89,21 @@
         var isValid = validateEmail($("#email").val());
         if (isValid) {
           //Valid email functions
+          $("#email").css("border", "1px solid green");
         } else {
           //Invalid email function
+          $("#email").css("border", "1px solid red");
         }
       });
 
       $("#phone").on('input', function () {
         var isValid = validateEmail($("#phone").val());
         if (isValid) {
-          //Valid email functions
+          //Valid phone functions
+          $("#phone").css("border", "1px solid green");
         } else {
-          //Invalid email function
+          //Invalid phone function
+          $("#phone").css("border", "1px solid red");
         }
       });
 
@@ -106,8 +114,10 @@
 
       if (isValid || !$("#message").val()) {
           //Valid Message input
+          $("#message").css("border", "1px solid green");
       } else {
           //Invalid Message input
+          $("#message").css("border", "1px solid red");
       }
     }); // End of input validation.
 
