@@ -1,21 +1,34 @@
 <?php
    echo  
-   '<!-- Bottom nav -->
+   ' 
+   <!-- Bottom nav -->
     <div class="bottom__nav">
         <div class="bottom__nav__license">
+        
+            <img src="assets\att__logo.png" alt="att logo">
+            <img src="assets\xero__logo.png" alt="xero certified logo">
+
+            <p>
+            AAT licensed accountant with over 15
+            years of accountancy experience.
+           
+            My services include bookkeeping, full accounts
+            production,payroll, VAT and tax.
+            </p>
+
         </div>
         <div class="bottom__nav__contact__us">
             <h3>
                 Contact us
             </h3>
-            <ul>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-                <li>hasellus leo enim</li>
-            </ul>
+            <p>
+                sharon wray accountancy services
+                unit 4 silver farm
+                silver street
+                bestthorpe
+                norfolk, NR17 2NY
+                Tel: 01953687077 or 07894067905
+            </p>
         </div>
         <div class="bottom__nav__sections">
             <h3>
@@ -34,9 +47,14 @@
     <!---------------->
    <!-- Footer -->
      <footer>
-         copyright &copy; sharon wray accountancy services.
+
+        <hr>
+        <p>
+         copyright &copy; sharon wray accountancy services. 
          all rights reserved 2018. -sitemap
+        <p>
      </footer>
      <!------------>
-     <!---------->'
+     <!---------->
+'
 ?>
