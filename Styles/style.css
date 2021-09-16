@@ -117,6 +117,9 @@ header {
 .header__inner a {
   color: #fff;
 }
+.header__inner i {
+  margin: -2px -29px 0 0;
+}
 
 .top__nav {
   display: flex;
@@ -131,6 +134,26 @@ header {
   height: 100%;
 }
 
+.top__nav__logo h2 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: extra-light;
+  font-family: poppins;
+}
+.top__nav__logo h3 {
+  text-transform: capitalize;
+  font-size: 13.5px;
+  font-weight: extra-light;
+  font-family: poppins;
+}
+
+.top__nav__logo__break {
+  display: flex;
+  width: 141px;
+  margin-top: -5px;
+  opacity: 55%;
+}
+
 .hamburger {
   padding: 10px !important;
   color: #fff !important;
@@ -143,10 +166,6 @@ header {
 }
 .hamburger .hamburger-inner::before {
   background-color: #fff !important;
-}
-
-.top__nav__phone {
-  display: flex;
 }
 
 .bottom__nav {
@@ -351,6 +370,8 @@ header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: poppins;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */

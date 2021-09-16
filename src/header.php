@@ -6,9 +6,9 @@ echo '
         <nav class="top__nav container">
             <div class="top__nav__logo">
                 <h2>
-                    Sharon Wray
-                </h2>
-                <hr class="top__nav__logo__break">
+                    sharon wray
+                    </h2>
+                    <hr class="top__nav__logo__break">
                 <h3>
                     Accountancy Services                
                 </h3>
@@ -19,8 +19,8 @@ echo '
                    <span class="hamburger-inner"></span>
                 </span>
             </button>
-         
-            <i class="top__nav__phone fas fa-phone-alt"></i>
+            
+            <i class="fas fa-phone-alt"></i>
             01953 687077
 
         </nav>
