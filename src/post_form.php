@@ -15,17 +15,16 @@
         if (empty($contactData["dataprotection"])) {
             $contactData["dataprotection"] = 0;
         }
-        // create enquiry and store return value
+        // create Message and store return value
         $response = createMessage($contactData);
-        // if createEnquiry returns an array, form is invalid
+        // if createMessage returns an array, form is invalid
         if (is_array($response)) {
             $invalidContactFields = $response;
-        // if createEnquiry returns true, form was submitted 
+        // if createMessage returns true, form was submitted 
         } elseif ($response) {
-            echo 'Success';
+            header("Location: contact.php");
             exit;
         } else {
-            
         }
     }
 ?>

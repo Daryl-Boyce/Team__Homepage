@@ -1,3 +1,8 @@
+<?php
+    ob_start();
+        require_once __DIR__ . "/src/bootstrap.php";
+        include_once __DIR__ . "/src/post_form.php";
+        ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,10 +48,10 @@
                 <form action="contact.php" method="POST" id="contact-form">
                    <input type="hidden" name="action" value="contact-form">
                     <label for="fname">First Name</label>
-                    <input type="text" value id="fname" name="firstname">
+                    <input type="text" value id="fname" name="fname">
 
                     <label for="lname">Last Name</label>
-                    <input type="text" value id="lname" name="lastname">
+                    <input type="text" value id="lname" name="lname">
 
                     <label for="email">Email</label>
                     <input type="text" value id="email" name="email">
@@ -58,7 +63,7 @@
                     <input type="textarea" value id="message" name="message">
 
                     <label for="checkbox">Do you agree?</label>
-                    <input type="checkbox" value id="checkbox" name="checkbox"> 
+                    <input type="checkbox" id="checkbox" name="checkbox" value=1> 
 
                     <button name="submit-m" type="submit" class="btn_send">Submit</button>
                 </form>
