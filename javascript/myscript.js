@@ -44,6 +44,7 @@
 
     var EmailRegex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     var characterReg = /^\s*[a-zA-Z0-9\.\!\?\@\-,\s]+\s*$/;
+    var phoneReg = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/;
 
     var validateString = function validateString(value) {
       if (value.match(characterReg) && value.length > 0) {
@@ -61,68 +62,114 @@
       }
     };
 
-    $("#fname").on('input', function () {
-      var isValid = validateString($("#fname").val());
-
-      if (isValid) {
-          //Valid first name input
-          $("#fname").css("border", "1px solid green");
+    var validatePhone = function validatePhone(value) {
+      if (value.match(phoneReg) && value.length > 0) {
+        return true;
       } else {
-          //Invalid first name input
-          $("#fname").css("border", "1px solid red");
+        return false;
+      }
+    };
+
+    $("#fname").on('input', function () {
+      let isValid = validateString($("#fname").val());
+
+      if (!isValid) {
+          $("#fname").css("border", "2px solid red");
+      } else {
+          $("#fname").css("border", "default");
       }
     });
-    $("#lname").on('input', function () {
-      var isValid = validateString($("#lname").val());
 
-      if (isValid) {
-          //Valid last name input
-          $("#lname").css("border", "1px solid green");
+    $("#lname").on('input', function () {
+      let isValid = validateString($("#lname").val());
+
+      if (!isValid) {
+          $("#lname").css("border", "2px solid red");
       } else {
-          //Valid last name input
-          $("#lname").css("border", "1px solid red");
+          $("#lname").css("border", "default");
       }
     });
 
     $("#email").on('input', function () {
-        var isValid = validateEmail($("#email").val());
-        if (isValid) {
-          //Valid email functions
-          $("#email").css("border", "1px solid green");
-        } else {
+        let isValid = validateEmail($("#email").val());
+        if (!isValid) {
           //Invalid email function
-          $("#email").css("border", "1px solid red");
+          $("#email").css("border", "2px solid red");
+        } else {
+          $("#email").css("border", "default");
         }
       });
 
       $("#phone").on('input', function () {
-        var isValid = validateEmail($("#phone").val());
-        if (isValid) {
-          //Valid phone functions
-          $("#phone").css("border", "1px solid green");
-        } else {
+        let isValid = validatePhone($("#phone").val());
+        if (!isValid) {
           //Invalid phone function
-          $("#phone").css("border", "1px solid red");
+          $("#phone").css("border", "2px solid red");
+        } else {
+          $("#phone").css("border", "default");
         }
       });
 
- // This block will look through the message field for special characters and disable the submit button if any are found.
-
     $("#message").on('input', function () {
-      var isValid = validateString($("#message").val());
+      let isValid = validateString($("#message").val());
 
-      if (isValid || !$("#message").val()) {
-          //Valid Message input
-          $("#message").css("border", "1px solid green");
-      } else {
+      if (!isValid || !$("#message").val()) {
           //Invalid Message input
-          $("#message").css("border", "1px solid red");
+          $("#message").css("border", "2px solid red");
+      } else {
+          $("#message").css("border", "default");
       }
     }); // End of input validation.
 
-    $('#contact-form').on("submit", function () {
-      if (!$.trim($('#first-name-input').val()).length) {
+    // This function will look through the contact form before submission to prevent unwanted text/ scripts
+    $('#contact-form').submit(function () {
+      let isValidf = validateString($("#fname").val());
+      let isValidl = validateString($("#lname").val());
+      let isValide = validateEmail($("#email").val());
+      let isValidp = validatePhone($("#phone").val());
+      let isValidm = validateString($("#message").val());
+
+      if (!$.trim($("#fname").val()).length || !isValidf) {
+        $("#fname").css("border", "2px solid red");
         e.preventDefault();
-        $("#failure-message").removeClass("hidden");
-  }
-})
+      }
+
+      if (!$.trim($("#lname").val()).length || !isValidl) {
+        $("#lname").css("border", "2px solid red");
+        e.preventDefault();
+      }
+    
+      if (!$.trim($("#email").val()).length || !isValide) {
+        $("#email").css("border", "2px solid red");
+        e.preventDefault();
+      }
+    
+      if (!$.trim($("#phone").val()).length || !isValidp) {
+        $("#phone").css("border", "2px solid red");
+        e.preventDefault();
+      }
+
+      if (!$.trim($("#message").val()).length || !isValidm) {
+        $("#message").css("border", "2px solid red");
+        e.preventDefault();
+        return false;
+      } else {}
+    });
+    
+    $('#contact-form').change(function () {
+      let isValidf = validateString($("#fname").val());
+      let isValidl = validateString($("#lname").val());
+      let isValide = validateEmail($("#email").val());
+      let isValidp = validatePhone($("#phone").val());
+      let isValidm = validateString($("#message").val());
+
+      if (isValidf && isValidl && isValide && isValidp && isValidm) {
+        $(".btn_send").removeClass("disabled");
+        $(".btn_send").attr("disabled", false);
+      } else {
+        $(".btn_send").addClass("disabled");
+        $(".btn_send").attr("disabled", true);
+      }
+    });
+
+    // End of form validation 

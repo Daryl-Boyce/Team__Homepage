@@ -20,6 +20,7 @@
     padding: 10px;
     background-color: $main;
     color: $secondary;
+    margin-bottom: 10px;
 
     input {
         width: 100%;
@@ -43,5 +44,13 @@
         &:hover {
             cursor: pointer;
         }
+    }
+}
+
+.disabled {
+    background-color: gray!important;
+
+    &:hover {
+        cursor: not-allowed!important;
     }
 }
