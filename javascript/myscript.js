@@ -1,11 +1,5 @@
-    
-    //Header Functions
-    $(".hamburger").click(function (){
-        $(".hamburger").toggleClass("is-active");
-    })
-
-
-    // Faq Page Functions
+ 
+  // On load Functions
 
     $(window).on("load", function() {
         $("#answer1").slideUp(0);
@@ -14,8 +8,14 @@
         $("#answer4").slideUp(0);
         $("#answer5").slideUp(0);
         $("#answer6").slideUp(0);
-    })
-    
+        $(".mainnav_container").slideUp(0);
+    });
+
+    $(document).on('click', '.hamburger', function(){
+      $(".hamburger").toggleClass("is-active");
+      $(".mainnav_container").slideToggle();
+    });
+
     $("#question1").click(function () {
         $("#answer1").slideToggle();
     })
@@ -39,7 +39,6 @@
     $("#question6").click(function () {
         $("#answer6").slideToggle();
     })
-
 
     //Contact form input validation
 

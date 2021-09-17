@@ -78,3 +78,28 @@ header {
 }
 
 
+.mainnav_container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: $main;
+    width: 100%;
+    top: 54px;
+    left: 0;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        height: 160px;
+    }
+
+    li {
+        padding: 5px;
+        font-size: 1.25rem;
+    }
+}
+

@@ -168,6 +168,29 @@ header {
   background-color: #fff !important;
 }
 
+.mainnav_container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background-color: #23284c;
+  width: 100%;
+  top: 54px;
+  left: 0;
+}
+.mainnav_container ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 160px;
+}
+.mainnav_container li {
+  padding: 5px;
+  font-size: 1.25rem;
+}
+
 .bottom__nav {
   display: flex;
   flex-direction: column;
