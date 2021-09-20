@@ -2,6 +2,8 @@
     ob_start();
         require_once __DIR__ . "/src/bootstrap.php";
         include_once __DIR__ . "/src/post_form.php";
+        define('SITE_KEY', '6LcUbnwcAAAAACBUlU0360v-SHqfmRDFRwlGHR-j');
+        define('SECRET_KEY', '6LcUbnwcAAAAAPx85TqOZQV23ODkzBjIl04KZVqX');
         ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +20,7 @@
     <link href="Styles/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8770348bdd.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY; ?>"></script>
     <title>Sharon Wray Accountancy Service</title>
 </head>
 
@@ -65,8 +68,20 @@
                     <label for="checkbox">Do you agree?</label>
                     <input type="checkbox" id="checkbox" name="checkbox" value=1> 
 
-                    <button name="submit-m" type="submit" class="btn_send">Submit</button>
+                    <input type="text" id="g-recaptcha-response" name="g-recaptcha-response">
+
+                    <button name="submit-m" type="submit" value="Submit" class="btn_send">Submit</button>
                 </form>
+                <script>
+                    function onClick(e) {
+                    e.preventDefault();
+                    grecaptcha.ready(function() {
+                    grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'submit'}).then(function(token) {
+                    document.getElementById('g-recaptcha-response').value=token;
+          });
+        });
+      }
+  </script>
             </div>
         </div>
         <!------------------>
