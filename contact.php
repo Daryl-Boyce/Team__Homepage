@@ -4,6 +4,20 @@
         include_once __DIR__ . "/src/post_form.php";
         define('SITE_KEY', '6LcUbnwcAAAAACBUlU0360v-SHqfmRDFRwlGHR-j');
         define('SECRET_KEY', '6LcUbnwcAAAAAPx85TqOZQV23ODkzBjIl04KZVqX');
+
+        if($_POST) {
+            function getCaptcha($SecretKey){
+                $Response = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=".SECRET_KEY."&response={$SecretKey}');
+                $Return = json_decode($Response);
+                return $Return;
+            }
+            $Return = getCaptcha($_POST['g-recaptcha-response']);
+            // if($Return->success == true && $Return > 0.5) {
+                // echo "Thank you for your message";
+            // } else {
+                // echo "Begone Bot!!!";
+            // }
+        }
         ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -68,7 +82,7 @@
                     <label for="checkbox">Do you agree?</label>
                     <input type="checkbox" id="checkbox" name="checkbox" value=1> 
 
-                    <input type="text" id="g-recaptcha-response" name="g-recaptcha-response">
+                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
 
                     <button name="submit-m" type="submit" value="Submit" class="btn_send">Submit</button>
                 </form>
@@ -76,7 +90,7 @@
                     function onClick(e) {
                     e.preventDefault();
                     grecaptcha.ready(function() {
-                    grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'submit'}).then(function(token) {
+                    grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'homepage'}).then(function(token) {
                     document.getElementById('g-recaptcha-response').value=token;
           });
         });
