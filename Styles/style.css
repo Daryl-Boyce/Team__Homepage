@@ -107,6 +107,11 @@
   cursor: not-allowed !important;
 }
 
+#mapid {
+  height: 180px;
+  width: 180px;
+}
+
 header {
   display: flex;
   flex-direction: row;

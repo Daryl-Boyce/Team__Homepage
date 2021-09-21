@@ -15,4 +15,9 @@ function createMessage(array $contactData) {
     }
 }
 
+//Set Cookies
+
+//google analytics
+setcookie('OTZ', 'value2', ['samesite' => 'None', 'secure' => true]);
+
 ?>
