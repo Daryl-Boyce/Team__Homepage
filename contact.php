@@ -51,6 +51,18 @@
         <!------------------>
         <div class="container">
             <div class="contact_section">
+                
+                <div class="findus_section">
+                    <h3>Where to find us</h3>
+                    <hr class="findus__break">
+                    <div id="mapid"></div>
+                    <div class="contact_info">
+                        <h4><a href="#">Tel: 01953 687077</a></h4>
+                        <h4><a href="#">Mob: 07894 067905</a></h4>
+                        <h4><a href="#">Email: accounts@sharonwray.co.uk</a></h4>
+                    </div>
+                </div>
+
                 <div class="contact_header">
                     <h3>
                         Contact Us
@@ -99,7 +111,6 @@
       }
   </script>
 
-                    <div id="mapid"></div>
             </div>
         </div>
         <!------------------>

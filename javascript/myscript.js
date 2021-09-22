@@ -176,7 +176,7 @@
 
     //Map location Script 
 
-    var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+    var mymap = L.map('mapid').setView([52.578196, 1.108712], 13);
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -186,3 +186,6 @@
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoieHRzb3VsZmlyZXR4IiwiYSI6ImNrdHUwOG0xbTBldHQyeHFuZTZzb3Yzd2UifQ.Qyy47GZ1rQ-YEQWVwiYKvQ'
 }).addTo(mymap);
+
+var marker = L.marker([52.578196, 1.108712]).addTo(mymap);
+marker.bindPopup("<b>Sharon Wray</b><br>Accountancy Services.").openPopup();
