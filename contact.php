@@ -2,6 +2,22 @@
     ob_start();
         require_once __DIR__ . "/src/bootstrap.php";
         include_once __DIR__ . "/src/post_form.php";
+        define('SITE_KEY', '6LcUbnwcAAAAACBUlU0360v-SHqfmRDFRwlGHR-j');
+        define('SECRET_KEY', '6LcUbnwcAAAAAPx85TqOZQV23ODkzBjIl04KZVqX');
+
+        if($_POST) {
+            function getCaptcha($SecretKey){
+                $Response = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=".SECRET_KEY."&response={$SecretKey}');
+                $Return = json_decode($Response);
+                return $Return;
+            }
+            $Return = getCaptcha($_POST['g-recaptcha-response']);
+            // if($Return->success == true && $Return > 0.5) {
+                // echo "Thank you for your message";
+            // } else {
+                // echo "Begone Bot!!!";
+            // }
+        }
         ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +34,9 @@
     <link href="Styles/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8770348bdd.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY; ?>"></script>
     <title>Sharon Wray Accountancy Service</title>
 </head>
 
@@ -32,6 +51,18 @@
         <!------------------>
         <div class="container">
             <div class="contact_section">
+                
+                <div class="findus_section">
+                    <h3>Where to find us</h3>
+                    <hr class="findus__break">
+                    <div id="mapid"></div>
+                    <div class="contact_info">
+                        <h4><a href="#">Tel: 01953 687077</a></h4>
+                        <h4><a href="#">Mob: 07894 067905</a></h4>
+                        <h4><a href="#">Email: accounts@sharonwray.co.uk</a></h4>
+                    </div>
+                </div>
+
                 <div class="contact_header">
                     <h3>
                         Contact Us
@@ -65,8 +96,21 @@
                     <label for="checkbox">Do you agree?</label>
                     <input type="checkbox" id="checkbox" name="checkbox" value=1> 
 
-                    <button name="submit-m" type="submit" class="btn_send">Submit</button>
+                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+
+                    <button name="submit-m" type="submit" value="Submit" class="btn_send">Submit</button>
                 </form>
+                <script>
+                    function onClick(e) {
+                    e.preventDefault();
+                    grecaptcha.ready(function() {
+                    grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'homepage'}).then(function(token) {
+                    document.getElementById('g-recaptcha-response').value=token;
+          });
+        });
+      }
+  </script>
+
             </div>
         </div>
         <!------------------>

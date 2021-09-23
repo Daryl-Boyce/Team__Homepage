@@ -22,7 +22,7 @@
             $invalidContactFields = $response;
         // if createMessage returns true, form was submitted 
         } elseif ($response) {
-            header("Location: contact.php");
+            header("Location: mailto: alexi.lambrou@netmatters-scs.com", );
             exit;
         } else {
         }

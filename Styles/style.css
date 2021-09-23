@@ -193,6 +193,24 @@
   padding: 10px 0;
 }
 
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #23284c;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.contact_info h4 {
+  margin-bottom: 5px;
+}
+.contact_info a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
 #contact-form {
   display: flex;
   flex-direction: column;
@@ -200,6 +218,7 @@
   padding: 10px;
   background-color: #23284c;
   color: #fff;
+  margin-bottom: 20px;
 }
 #contact-form input {
   width: 100%;
@@ -220,6 +239,25 @@
 }
 #contact-form button:hover {
   cursor: pointer;
+}
+
+.disabled {
+  background-color: gray !important;
+}
+.disabled:hover {
+  cursor: not-allowed !important;
+}
+
+.grecaptcha-badge {
+  z-index: 500;
+}
+
+#mapid {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 header {

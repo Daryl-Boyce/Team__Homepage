@@ -12,6 +12,26 @@
     }
 }
 
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $main;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    h4 {
+        margin-bottom: 5px;
+    }
+
+    a{
+        color: $secondary;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+}
+
 //Contact form content
 #contact-form {
     display: flex;
@@ -20,6 +40,7 @@
     padding: 10px;
     background-color: $main;
     color: $secondary;
+    margin-bottom: 20px;
 
     input {
         width: 100%;
@@ -44,4 +65,27 @@
             cursor: pointer;
         }
     }
+}
+
+.disabled {
+    background-color: gray!important;
+
+    &:hover {
+        cursor: not-allowed!important;
+    }
+}
+
+//reCaptcha Styling
+.grecaptcha-badge {
+    z-index: 500;
+}
+
+// Map Styling
+
+#mapid {
+    display: flex; 
+    height: 450px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
