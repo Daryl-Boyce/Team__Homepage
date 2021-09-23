@@ -21,10 +21,10 @@
     <!---------->
     <!------------>
     <!-- Header -->
+    <div class="container">
     <?php
         include_once __DIR__ . "/src/header.php"
     ?>
-    <div class="container">
         <div class="faq_section">
             <div class="faq_header">
                 <h3>

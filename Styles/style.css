@@ -410,6 +410,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 10px;
 }
 .bottom__nav__sections h3 {
   margin: 10px 0px 15px 0px;
@@ -440,6 +441,7 @@ footer hr {
 }
 footer p {
   width: 83%;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
