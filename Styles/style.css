@@ -445,6 +445,61 @@ footer p {
   margin-bottom: 15px;
 }
 
+.account__header__main {
+  display: flex;
+  width: 100%;
+  padding-left: 28px;
+  text-decoration: underline;
+  text-align: center;
+  color: #23284c;
+}
+
+.accountant__card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  border: 1px #23284c solid;
+  margin-bottom: 20px;
+}
+
+.accountant__card__first {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  text-align: center;
+  background-color: #23284c;
+}
+.accountant__card__first h2 {
+  width: 50%;
+  margin-left: 80px;
+}
+.accountant__card__first p {
+  display: flex;
+  width: 75%;
+  margin-left: 40px;
+  padding-top: 15px;
+}
+.accountant__card__first hr {
+  width: 69%;
+  height: 1px;
+  margin-left: 48px;
+  background-color: #fff;
+  border-color: #23284c;
+  border: 0;
+}
+
+.accountant__card__second {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/clac__pen.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers

@@ -26,6 +26,30 @@
         include_once __DIR__ . "/src/header.php"
     ?>
 
+    <div class="container">
+        <H1 class="account__header__main">
+            Our Accountants
+        </H1>
+        <div class="accountant__card">
+            <div class="accountant__card__first">
+                <h2>Name of Accountant</h2>
+                <hr>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Phasellus vehicula justo quis magna finibus egestas.
+                </p>
+            </div>
+            <div class="accountant__card__second">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
     </div>
         <!------------------>
         <?php
