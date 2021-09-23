@@ -81,10 +81,12 @@
                 Sed vitae venenatis quam, sed commodo velit. Etiam molestie
                 diam eros, vel ultrices sapien viverra at. 
             </p>
-            <div class= "middle__welcome__pic">
-                
-            </div>
         </div>
+    </div>
+    <div class= "middle__welcome__pic">
+    </div>
+    
+    <div class="container">
         <!-------------------->
         <!-- Contact banner -->
         <div class="contact__banner">

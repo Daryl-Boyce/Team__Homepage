@@ -78,10 +78,8 @@
 
 .middle__welcome__pic {
   display: flex;
-  height: 500px;
+  height: 300px;
   width: 100%;
-  margin: 0px -40px 0 -40px;
-  padding: 10px;
   background-image: url("../assets/clac__pen.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -100,7 +98,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
   margin: 0px -40px 0 -40px;
   padding: 10px;
   background-color: #23284c;
@@ -373,10 +370,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
   color: #fff;
   background-color: #23284c;
-  margin: 0px -40px 0px -40px;
 }
 .bottom__nav a {
   color: #fff;
@@ -430,7 +425,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 100vw;
+  margin: 0px -1 0px -1px;
   text-transform: capitalize;
   color: #fff;
   background-color: #23284c;
