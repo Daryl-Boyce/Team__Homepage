@@ -25,17 +25,10 @@ echo '
 
             <div class="mainnav_container">
                 <ul>
-<<<<<<< HEAD
-                    <li><a href="/team__homepage/index.php">Home</a></li>
-                    <li><a href="/team__homepage/accountants.php">Switch Accountants</a></li>
-                    <li><a href="/team__homepage/faqs.php">FAQ&apos;s</a></li>
-                    <li><a href="/team__homepage/contact.php">Contact Us</a></li>
-=======
                     <li><a href="/pair-project/index.php">Home</a></li>
                     <li><a href="/pair-project/accountants.php">Switch Accountants</a></li>
                     <li><a href="/pair-project/faqs.php">FAQ&apos;s</a></li>
                     <li><a href="/pair-project/contact.php">Contact US</a></li>
->>>>>>> d862bbae1229199fb172f09d0e7b4b4774722dff
                 </ul> 
             </div>
         </nav>
