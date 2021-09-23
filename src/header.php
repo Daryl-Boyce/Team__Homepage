@@ -27,8 +27,10 @@ echo '
                 <li><a href="/pair-project/contact.php">Contact US</a></li>
             </ul> 
             
-            <i class="fas fa-phone-alt"></i>
-            01953 687077
+            <div class="phone_contact">
+                <i class="fas fa-phone-alt"></i>
+                01953 687077
+            </div>
 
             <div class="mainnav_container">
                 <ul>

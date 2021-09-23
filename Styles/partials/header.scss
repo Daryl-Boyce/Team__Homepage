@@ -29,7 +29,7 @@ header {
     padding: 0px 40px 0px 40px;
     ul {
         display: flex;
-        width: 100%;
+        width: 67%;
         height: 100%;
     }
 }
@@ -42,7 +42,7 @@ header {
         font-size: 24px;
         font-weight: extra-light;
         font-family: poppins;
-        width: 151.81px!important;
+        width: 153.81px!important;
         }
     
     h3 {
@@ -76,6 +76,14 @@ header {
     .hamburger-inner::before {
         background-color: #fff!important;
     }
+}
+
+.phone_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 140px!important;
 }
 
 .large_menu {
