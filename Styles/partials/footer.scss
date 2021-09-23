@@ -73,14 +73,11 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
-    margin-left: -40px;
+    width: 100vw;
     text-transform: capitalize;
     color: $secondary;
     background-color: $main;
     align-items: center;
-    
-    
 
     hr {
         width: 100%;
