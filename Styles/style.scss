@@ -15,3 +15,15 @@
     font-family: poppins;
     font-weight: 300;
 }
+
+.hide_on_small {
+    @media (max-width: 760px) {
+    display: none!important;
+    }
+}
+
+.hide_on_large {
+    @media (min-width: 760px) {
+    display: none!important;
+    }
+}

@@ -35,12 +35,14 @@ header {
 }
 
 .top__nav__logo {
+    width: 151.81px!important;
 
     h2 {
         text-transform: capitalize;
         font-size: 24px;
         font-weight: extra-light;
         font-family: poppins;
+        width: 151.81px!important;
         }
     
     h3 {
@@ -48,6 +50,7 @@ header {
         font-size: 13.5px;
         font-weight: extra-light;
         font-family: poppins;
+        width: 151.81px!important;
     }
 }
 
@@ -75,6 +78,17 @@ header {
     }
 }
 
+.large_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+
+    a {
+        text-decoration: none;
+    }
+}
+
 
 .mainnav_container {
     display: flex;
@@ -82,7 +96,7 @@ header {
     position: absolute;
     background-color: $main;
     width: 100%;
-    top: 54px;
+    top: 90px;
     left: 0;
     z-index: 1001;
 
