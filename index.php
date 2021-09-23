@@ -112,15 +112,15 @@
             <i class="fas fa-quote-right fa-2x"></i>
         </div>
         <!------------------>
-        <?php
-        include_once __DIR__ . "/src/footer.php"
-        ?>
         <!-------->
         <script src="//code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="javascript/myscript.js"></script>
     </div>
+        <?php
+        include_once __DIR__ . "/src/footer.php"
+        ?>
 </body>
 
 </html>

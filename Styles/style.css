@@ -413,8 +413,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 100%;
-  margin-left: -40px;
+  width: 100vw;
   text-transform: capitalize;
   color: #fff;
   background-color: #23284c;
