@@ -45,11 +45,11 @@
     <!---------->
     <!------------>
     <!-- Header -->
+    <div class="container">
     <?php
         include __DIR__ . "/src/header.php"
     ?>
         <!------------------>
-        <div class="container">
             <div class="contact_section">
                 
                 <div class="findus_section">

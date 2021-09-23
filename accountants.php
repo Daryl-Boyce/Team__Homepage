@@ -21,10 +21,12 @@
     <!---------->
     <!------------>
     <!-- Header -->
+    <div class="container">
     <?php
         include_once __DIR__ . "/src/header.php"
     ?>
 
+    </div>
         <!------------------>
         <?php
     include_once __DIR__ . "/src/footer.php"
