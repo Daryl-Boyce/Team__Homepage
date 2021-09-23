@@ -150,6 +150,29 @@
 
 .faq_section {
   font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 760px) {
+  .faq_section {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 760px) {
+  .faq_text {
+    width: 48%;
+  }
+}
+
+@media (min-width: 760px) {
+  .faq_list {
+    width: 48%;
+    margin-top: 66px;
+  }
 }
 
 .faq_header {
@@ -183,8 +206,13 @@
 .contact_section {
   font-family: Poppins, sans-serif;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+}
+@media (min-width: 760px) {
+  .contact_section {
+    flex-direction: row;
+  }
 }
 .contact_section h3 {
   font-size: 2rem;
@@ -212,7 +240,12 @@
 }
 
 .form_container {
-  width: 48%;
+  width: 100%;
+}
+@media (min-width: 760px) {
+  .form_container {
+    width: 48%;
+  }
 }
 
 #contact-form {
@@ -257,8 +290,13 @@
 }
 
 .findus_section {
-  width: 48%;
-  margin-bottom: 20px;
+  width: 100%;
+}
+@media (min-width: 760px) {
+  .findus_section {
+    width: 48%;
+    margin-bottom: 20px;
+  }
 }
 
 .location_details {
@@ -304,21 +342,26 @@ header {
 }
 .top__nav ul {
   display: flex;
-  width: 100%;
+  width: 67%;
   height: 100%;
 }
 
+.top__nav__logo {
+  width: 151.81px !important;
+}
 .top__nav__logo h2 {
   text-transform: capitalize;
   font-size: 24px;
   font-weight: extra-light;
   font-family: poppins;
+  width: 153.81px !important;
 }
 .top__nav__logo h3 {
   text-transform: capitalize;
   font-size: 13.5px;
   font-weight: extra-light;
   font-family: poppins;
+  width: 151.81px !important;
 }
 
 .top__nav__logo__break {
@@ -342,13 +385,31 @@ header {
   background-color: #fff !important;
 }
 
+.phone_contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 140px !important;
+}
+
+.large_menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.large_menu a {
+  text-decoration: none;
+}
+
 .mainnav_container {
   display: flex;
   justify-content: center;
   position: absolute;
   background-color: #23284c;
   width: 100%;
-  top: 54px;
+  top: 90px;
   left: 0;
   z-index: 1001;
 }
@@ -699,6 +760,18 @@ footer p {
   padding: 0;
   font-family: poppins;
   font-weight: 300;
+}
+
+@media (max-width: 760px) {
+  .hide_on_small {
+    display: none !important;
+  }
+}
+
+@media (min-width: 760px) {
+  .hide_on_large {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

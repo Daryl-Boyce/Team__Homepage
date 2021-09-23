@@ -26,28 +26,30 @@
         include_once __DIR__ . "/src/header.php"
     ?>
         <div class="faq_section">
-            <div class="faq_header">
-                <h3>
-                    FAQ's
-                </h3>
-                <hr class="faq__break">
-            </div>
-            <div class="faq_statement">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales,
-                     lacus tempor ullamcorper sollicitudin, dui enim vulputate est, quis 
-                     finibus sem tortor eu elit. Nulla malesuada lorem ut est porta, eget 
-                     sagittis lectus vestibulum. Duis sit amet leo mi. Pellentesque id sapien 
-                     non nunc varius vehicula. Aenean non molestie leo. Phasellus sit amet 
-                     augue eget ex efficitur elementum. Sed sed vestibulum felis. Quisque 
-                     mattis dolor eu convallis vulputate. Aliquam eget euismod purus, sit 
-                     amet finibus mauris. Quisque ut turpis tristique, ultrices sapien a, 
-                     lobortis mauris. Interdum et malesuada fames ac ante ipsum primis in 
-                     faucibus. Phasellus nulla tellus, tempor eget interdum in, tristique 
-                     laoreet neque. Sed libero nulla, laoreet vel laoreet id, dictum non 
-                     lectus. Duis justo libero, accumsan in urna ut, condimentum vehicula 
-                     tellus. Donec dignissim, mauris quis vestibulum dapibus, erat justo
-                      gravida diam, ut blandit lorem turpis venenatis velit.</p>
+            <div class="faq_text">
+                <div class="faq_header">
+                    <h3>
+                        FAQ's
+                    </h3>
+                    <hr class="faq__break">
+                </div>
+                <div class="faq_statement">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sodales,
+                         lacus tempor ullamcorper sollicitudin, dui enim vulputate est, quis 
+                         finibus sem tortor eu elit. Nulla malesuada lorem ut est porta, eget 
+                         sagittis lectus vestibulum. Duis sit amet leo mi. Pellentesque id sapien 
+                         non nunc varius vehicula. Aenean non molestie leo. Phasellus sit amet 
+                         augue eget ex efficitur elementum. Sed sed vestibulum felis. Quisque 
+                         mattis dolor eu convallis vulputate. Aliquam eget euismod purus, sit 
+                         amet finibus mauris. Quisque ut turpis tristique, ultrices sapien a, 
+                         lobortis mauris. Interdum et malesuada fames ac ante ipsum primis in 
+                         faucibus. Phasellus nulla tellus, tempor eget interdum in, tristique 
+                         laoreet neque. Sed libero nulla, laoreet vel laoreet id, dictum non 
+                         lectus. Duis justo libero, accumsan in urna ut, condimentum vehicula 
+                         tellus. Donec dignissim, mauris quis vestibulum dapibus, erat justo
+                         gravida diam, ut blandit lorem turpis venenatis velit.</p>
+                </div>
             </div>
             <div class="faq_list">
                 <ul class="faq_list_list">

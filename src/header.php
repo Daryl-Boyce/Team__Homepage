@@ -14,14 +14,23 @@ echo '
                 </h3>
             </div>
         
-            <button class="hamburger hamburger--collapse" type="button">
+            <button class="hamburger hamburger--collapse hide_on_large" type="button">
                 <span class="hamburger-box">
                    <span class="hamburger-inner"></span>
                 </span>
             </button>
+
+            <ul class="large_menu hide_on_small">
+                <li><a href="/pair-project/index.php">Home</a></li>
+                <li><a href="/pair-project/accountants.php">Switch Accountants</a></li>
+                <li><a href="/pair-project/faqs.php">FAQ&apos;s</a></li>
+                <li><a href="/pair-project/contact.php">Contact US</a></li>
+            </ul> 
             
-            <i class="fas fa-phone-alt"></i>
-            01953 687077
+            <div class="phone_contact">
+                <i class="fas fa-phone-alt"></i>
+                01953 687077
+            </div>
 
             <div class="mainnav_container">
                 <ul>
