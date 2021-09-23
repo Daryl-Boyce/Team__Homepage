@@ -16,22 +16,23 @@
 </head>
 
 <body>
-    <!-------->
-    <!---------->
-    <!------------>
-    <!-- Header -->
-    <?php
-        include __DIR__ . "/src/header.php"
-    ?>
-    <!-- Hero -->
     <div class="container">
+        <!-------->
+        <!---------->
+        <!------------>
+        <!-- Header -->
+        <?php
+            include __DIR__ . "/src/header.php"
+        ?>
+        <!-- Hero -->
+        
         <div class="hero">
             <div class="hero__inner">
                 <div class="hero__inner__header">
-                    <h1 class="hero__inner__header__main">
+                    <h1>
                         Fully qualified aat licensed accountant
-                        <hr class="hero__inner__break">
                     </h1>
+                    <hr class="hero__inner__break">
                     <h2 class="hero__header__header__secondary">
                         Professional and affordable service contact
                         us today for a free consultation
@@ -45,81 +46,81 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!--------------->
-    <!-- Middle Welcome -->
-    <div class="middle__welcome">
-        <h2 class="middle__welcome__header">
-            Welcome
-        </h2>
-        <hr class="middle__welcome__header__break">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Phasellus leo enim, gravida luctus
-            maximus et, varius at sapien. Sed non nunc est.
-            Nulla elementum imperdiet magna, sed euismod massa
-            sodales sit amet. Proin congue pharetra sem ac volutpat.
-            Maecenas rhoncus felis sed metus tincidunt vehicula.
-        </p>
-        <p>
-            Nunc ullamcorper vel augue sed pharetra. Sed posuere
-            felis eget mi cursus, quis rhoncus diam facilisis.
-            Nunc suscipit sem id nibh mattis efficitur.
-            Donec posuere mattis suscipit. Fusce vehicula imperdiet
-            tempus. Nam ut tempus turpis. Nunc sollicitudin pulvinar
-            turpis nec viverra.
-        </p>
-        <p>
-            Fusce tempus, sapien ut aliquam consectetur, metus velit
-            imperdiet velit, sit amet mollis urna velit a massa.
-            Aliquam ante urna, molestie porttitor dolor nec, porttitor
-            luctus lorem. Nulla nec arcu auctor, accumsan quam non,
-            blandit ex. Maecenas tincidunt imperdiet orci, vel dignissim
-            mi volutpat non. Cras ullamcorper dapibus nunc at egestas.
-        </p>
-        <p>
-            Sed vitae venenatis quam, sed commodo velit. Etiam molestie
-            diam eros, vel ultrices sapien viverra at. Proin non purus
-            sed enim iaculis maximus. Etiam at sodales purus, non ornare
-            libero.
-        </p>
-        <img src="#" alt="A person writing in an account book">
-    </div>
-    <!-------------------->
-    <!-- Contact banner -->
-    <div class="contact__banner">
-        <h3>
-            Donec posuere mattis suscipit. Fusce vehicula imperdiet
-            tempus. Nam ut tempus turpis. Nunc sollicitudin pulvinar
-            turpis nec viverra.
-        </h3>
-        <div class="contact__banner__contact__button">
-            Contact us Today
+        <!--------------->
+        <!-- Middle Welcome -->
+        <div class="middle__welcome">
+            <h2 class="middle__welcome__header">
+                Welcome
+            </h2>
+            <hr class="middle__welcome__header__break">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Phasellus leo enim, gravida luctus
+                maximus et, varius at sapien. Sed non nunc est.
+                Nulla elementum imperdiet magna, sed euismod massa
+                sodales sit amet. Proin congue pharetra sem ac volutpat.
+                Maecenas rhoncus felis sed metus tincidunt vehicula.
+            </p>
+            <p>
+                Nunc ullamcorper vel augue sed pharetra. Sed posuere
+                felis eget mi cursus, quis rhoncus diam facilisis.
+                Nunc suscipit sem id nibh mattis efficitur.
+                Donec posuere mattis suscipit. Fusce vehicula imperdiet
+                tempus. Nam ut tempus turpis. Nunc sollicitudin pulvinar
+                turpis nec viverra.
+            </p>
+            <p>
+                Fusce tempus, sapien ut aliquam consectetur, metus velit
+                imperdiet velit, sit amet mollis urna velit a massa.
+                Aliquam ante urna, molestie porttitor dolor nec, porttitor
+                luctus lorem. Nulla nec arcu auctor, accumsan quam non,
+                blandit ex. Maecenas tincidunt imperdiet orci, vel dignissim
+                mi volutpat non. Cras ullamcorper dapibus nunc at egestas.
+            </p>
+            <p>
+                Sed vitae venenatis quam, sed commodo velit. Etiam molestie
+                diam eros, vel ultrices sapien viverra at. 
+            </p>
+            <div class= "middle__welcome__pic">
+                
+            </div>
         </div>
+        <!-------------------->
+        <!-- Contact banner -->
+        <div class="contact__banner">
+            <h3>
+                Donec posuere mattis suscipit. Fusce vehicula imperdiet
+                tempus. Nam ut tempus turpis. Nunc sollicitudin pulvinar
+                turpis nec viverra.
+            </h3>
+            <div class="contact__banner__contact__button">
+                Contact us Today
+            </div>
+        </div>
+        <!-------------------->
+        <!-- Quote banner -->
+        <div class="quote__banner">
+            <i class="fas fa-quote-left fa-2x"></i>
+            <blockquote class="quote__banner__block">
+                Fusce tempus, sapien ut aliquam consectetur, metus velit
+                imperdiet velit, sit amet mollis urna velit a massa.
+                Aliquam ante urna, molestie porttitor dolor nec, porttitor
+                luctus lorem. Nulla nec arcu auctor, accumsan quam non,
+                blandit ex. Maecenas tincidunt imperdiet orci, vel dignissim
+                mi volutpat non. Cras ullamcorper dapibus nunc at egestas.
+            </blockquote>
+            <i class="fas fa-quote-right fa-2x"></i>
+        </div>
+        <!------------------>
+        <?php
+        include_once __DIR__ . "/src/footer.php"
+        ?>
+        <!-------->
+        <script src="//code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="javascript/myscript.js"></script>
     </div>
-    <!-------------------->
-    <!-- Quote banner -->
-    <div class="quote__banner">
-        <img src="#" alt="large__quote__marks">
-        <blockquote>
-            Fusce tempus, sapien ut aliquam consectetur, metus velit
-            imperdiet velit, sit amet mollis urna velit a massa.
-            Aliquam ante urna, molestie porttitor dolor nec, porttitor
-            luctus lorem. Nulla nec arcu auctor, accumsan quam non,
-            blandit ex. Maecenas tincidunt imperdiet orci, vel dignissim
-            mi volutpat non. Cras ullamcorper dapibus nunc at egestas.
-        </blockquote>
-        <img src="#" alt="large__quote__marks">
-    </div>
-    <!------------------>
-    <?php
-    include_once __DIR__ . "/src/footer.php"
-    ?>
-    <!-------->
-    <script src="//code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="javascript/myscript.js"></script>
 </body>
 
 </html>

@@ -3,6 +3,66 @@
 
 // Hero Banner Section
 
+.hero {
+    display: flex;
+    height: 500px;
+    margin: 0px -40px 0px -40px;
+    background-image: url("../assets/clac__pen.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+    color: $secondary;
+
+    h2{
+        padding: 0px 50px 0px 50px;
+    }
+}
+
+.hero__inner__break {
+    width: 340px;
+    margin-left: 40px;
+}
+
+.hero__inner__services__button {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    text-transform: capitalize;
+    background-color: #23284c;
+    color: #fff;
+    line-height: 17px;
+    margin-top: 40px;
+    border: 1px solid #fff;
+    border-radius: 1px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__inner__contact__button {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    text-transform: capitalize;
+    align-items: center;
+    background-color: $secondary;
+    color: $main;
+    line-height: 20px;
+    margin-top: 20px;
+    border: 1px solid $main;
+    border-radius: 1px;
+    flex-direction: column;
+    justify-content: center;
+}
+
 // Welcome Section
 
  .middle__welcome {
@@ -10,32 +70,108 @@
      flex-direction: column;
      padding: 10px;
 
-     .middle__welcome__header{
+     h2 {
+         text-align: center;
          color: $main;
      }
- }
 
- // Contact Banner
+     p {
+         text-align: center;
+         margin-bottom: 15px;
+     }
 
- .contact__banner {
-     display: flex;
-     flex-direction: row;
-     padding: 10px;
-     background-color: $main;
-     color: $secondary;
- }
+     p:nth-child(3) {
+        margin-top: 15px;
+    }
+
+     p:nth-child(6) {
+        font-weight: bold;
+    }
+
+    
+}
+
+.middle__welcome__pic {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin: 0px -40px 0 -40px;
+    padding: 10px;
+    background-image: url("../assets/clac__pen.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.middle__welcome__header{
+        color: $main;
+
+}
+
+.middle__welcome__header__break {
+    width: 220px;
+    margin-left: 120px;
+
+}
+
+
+// Contact Banner
+.contact__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: 0px -40px 0 -40px;
+    padding: 10px;
+    background-color: $main;
+    color: $secondary;
+    text-align: center;
+}
+
+.contact__banner__contact__button {
+    width: 250px;
+    height: 30px;
+    background: $secondary;
+    color: $main;
+    font-weight:  bold;
+    border-radius: 1px;
+    margin: 15px 0px 15px 0px;
+    padding-top: 2px;
+}
 
  // Quote Section
 
  .quote__banner {
     display: flex;
- }
-
- .container {
-    display: inline-flex;
-    height: 100%;
-    width: 100%;
     flex-direction: row;
     justify-content: center;
-    padding: 0px 40px;
+
+    i:nth-child(1) {
+        margin: 8px 20px 0px 0px;
+        color: $main;
     }
+
+    i:nth-child(3) {
+        margin: 250px 0px 0px 15px;
+        color: $main;
+    }
+ }
+
+.quote__banner__block {
+    display: flex;
+    width: 60%;
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: $secondary;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding: 0px 40px 0px 40px;
+ }

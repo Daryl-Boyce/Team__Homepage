@@ -3,7 +3,7 @@
 echo '
 <header>
     <div class="header__inner">
-        <nav class="top__nav container">
+        <nav class="top__nav ">
             <div class="top__nav__logo">
                 <h2>
                     sharon wray
@@ -28,7 +28,7 @@ echo '
                     <li><a href="/team__homepage/index.php">Home</a></li>
                     <li><a href="/team__homepage/accountants.php">Switch Accountants</a></li>
                     <li><a href="/team__homepage/faqs.php">FAQ&apos;s</a></li>
-                    <li><a href="/team__homepage/contact.php">Contact US</a></li>
+                    <li><a href="/team__homepage/contact.php">Contact Us</a></li>
                 </ul> 
             </div>
         </nav>
