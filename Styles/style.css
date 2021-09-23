@@ -62,6 +62,9 @@
 
 .contact_section {
   font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .contact_section h3 {
   font-size: 2rem;
@@ -86,6 +89,10 @@
   color: #fff;
   font-size: 1rem;
   text-decoration: none;
+}
+
+.form_container {
+  width: 48%;
 }
 
 #contact-form {
@@ -127,6 +134,15 @@
 
 .grecaptcha-badge {
   z-index: 500;
+}
+
+.findus_section {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.location_details {
+  margin-top: 10px;
 }
 
 #mapid {
@@ -214,6 +230,7 @@ header {
   width: 100%;
   top: 54px;
   left: 0;
+  z-index: 1001;
 }
 .mainnav_container ul {
   display: flex;

@@ -2,6 +2,9 @@
 //Contact Section Header
 .contact_section {
     font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     h3 {
         font-size: 2rem;
@@ -33,6 +36,10 @@
 }
 
 //Contact form content
+
+.form_container {
+    width: 48%;
+}
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -81,6 +88,15 @@
 }
 
 // Map Styling
+
+.findus_section {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.location_details {
+    margin-top: 10px;
+}
 
 #mapid {
     display: flex; 

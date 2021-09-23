@@ -61,57 +61,66 @@
                         <h4><a href="#">Mob: 07894 067905</a></h4>
                         <h4><a href="#">Email: accounts@sharonwray.co.uk</a></h4>
                     </div>
+                    <div class="location_details">
+                        <p>Sharon Wray Accountancy Services <br>
+                            38a Barnham Broom Road <br>
+                            Wymondham <br>
+                            Norfolk <br>
+                            NR18 0DF
+                        </p>
+                    </div>
                 </div>
 
-                <div class="contact_header">
-                    <h3>
-                        Contact Us
-                    </h3>
-                    </h3>
-                    <hr class="contact__break">
+                <div class="form_container">
+                    <div class="contact_header">
+                            <h3>
+                                Contact Us
+                            </h3>
+                            </h3>
+                            <hr class="contact__break">
+                        </div>
+                        <div class="contact_statement">
+                            <p>
+                                Hey i'm a statement telling you the reasons why you might need to contact us and how is the best way to go about it.
+                                fill out the below form if you want to reach out to us.
+                            </p>
+                        </div>
+                        <form action="contact.php" method="POST" id="contact-form">
+                           <input type="hidden" name="action" value="contact-form">
+                            <label for="fname">First Name</label>
+                            <input type="text" value id="fname" name="fname">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" value id="lname" name="lname">
+
+                            <label for="email">Email</label>
+                            <input type="text" value id="email" name="email">
+
+                            <label for="phone">Telephone Number</label>
+                            <input type="text" value id="phone" name="phone">
+
+                            <label for="message">Message</label>
+                            <input type="textarea" value id="message" name="message">
+
+                            <label for="checkbox">Do you agree?</label>
+                            <input type="checkbox" id="checkbox" name="checkbox" value=1> 
+
+                            <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+
+                            <button name="submit-m" type="submit" value="Submit" class="btn_send">Submit</button>
+                        </form>
+                        <script>
+                            function onClick(e) {
+                            e.preventDefault();
+                            grecaptcha.ready(function() {
+                            grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'homepage'}).then(function(token) {
+                            document.getElementById('g-recaptcha-response').value=token;
+                                 });
+                             });
+                         }
+                        </script>
+                    </div>
                 </div>
-                <div class="contact_statement">
-                    <p>
-                        Hey i'm a statement telling you the reasons why you might need to contact us and how is the best way to go about it.
-                        fill out the below form if you want to reach out to us.
-                    </p>
-                </div>
-                <form action="contact.php" method="POST" id="contact-form">
-                   <input type="hidden" name="action" value="contact-form">
-                    <label for="fname">First Name</label>
-                    <input type="text" value id="fname" name="fname">
-
-                    <label for="lname">Last Name</label>
-                    <input type="text" value id="lname" name="lname">
-
-                    <label for="email">Email</label>
-                    <input type="text" value id="email" name="email">
-
-                    <label for="phone">Telephone Number</label>
-                    <input type="text" value id="phone" name="phone">
-
-                    <label for="message">Message</label>
-                    <input type="textarea" value id="message" name="message">
-
-                    <label for="checkbox">Do you agree?</label>
-                    <input type="checkbox" id="checkbox" name="checkbox" value=1> 
-
-                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-
-                    <button name="submit-m" type="submit" value="Submit" class="btn_send">Submit</button>
-                </form>
-                <script>
-                    function onClick(e) {
-                    e.preventDefault();
-                    grecaptcha.ready(function() {
-                    grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'homepage'}).then(function(token) {
-                    document.getElementById('g-recaptcha-response').value=token;
-          });
-        });
-      }
-  </script>
-
-            </div>
         </div>
         <!------------------>
         <?php
