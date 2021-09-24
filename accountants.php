@@ -30,18 +30,92 @@
         <H1 class="account__header__main">
             Our Accountants
         </H1>
-        <div class="accountant__card">
-            <div class="accountant__card__first">
-                <h2>Name of Accountant</h2>
-                <hr>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Phasellus vehicula justo quis magna finibus egestas.
-                </p>
-            </div>
-            <div class="accountant__card__second">
 
+        <div class="accountant__cards">
+            <div class="accountant__card__1">
+                <div class="accountant__card__first">
+                    <h2>Name of Accountant</h2>
+                    <hr>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus vehicula justo quis magna finibus egestas.
+                    </p>
+                </div>
+                <div class="accountant__card__image">
+
+                </div>
             </div>
+
+            <div class="accountant__card__2">
+                <div class="accountant__card__first">
+                    <h2>Name of Accountant</h2>
+                    <hr>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus vehicula justo quis magna finibus egestas.
+                    </p>
+                </div>
+                <div class="accountant__card__image">
+
+                </div>
+            </div>
+
+            <div class="accountant__card__3">
+                <div class="accountant__card__first">
+                    <h2>Name of Accountant</h2>
+                    <hr>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus vehicula justo quis magna finibus egestas.
+                    </p>
+                </div>
+                <div class="accountant__card__image">
+
+                </div>
+            </div>
+
+            <div class="accountant__card__4">
+                <div class="accountant__card__first">
+                    <h2>Name of Accountant</h2>
+                    <hr>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus vehicula justo quis magna finibus egestas.
+                    </p>
+                </div>
+                <div class="accountant__card__image">
+
+                </div>
+            </div>
+
+            <div class="accountant__card__5">
+                <div class="accountant__card__first">
+                    <h2>Name of Accountant</h2>
+                    <hr>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus vehicula justo quis magna finibus egestas.
+                    </p>
+                </div>
+                <div class="accountant__card__image">
+
+                </div>
+            </div>
+
+            <div class="accountant__card__6">
+                <div class="accountant__card__first">
+                    <h2>Name of Accountant</h2>
+                    <hr>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus vehicula justo quis magna finibus egestas.
+                    </p>
+                </div>
+                <div class="accountant__card__image">
+
+                </div>
+            </div>
+            
         </div>
 
     </div>
