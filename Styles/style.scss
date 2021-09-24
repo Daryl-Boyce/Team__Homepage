@@ -28,3 +28,15 @@
     display: none!important;
     }
 }
+
+.hide_on_small_welcome {
+    @media (max-width: 900px) {
+    display: none!important;
+    }
+}
+
+.hide_on_large_welcome {
+    @media (min-width: 900px) {
+    display: none!important;
+    }
+}

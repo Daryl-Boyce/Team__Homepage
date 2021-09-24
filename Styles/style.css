@@ -183,7 +183,7 @@
 .middle__welcome p:nth-child(6) {
   font-weight: bold;
 }
-@media (min-width: 760px) {
+@media (min-width: 900px) {
   .middle__welcome {
     flex-direction: row;
     justify-content: space-evenly;
@@ -191,12 +191,23 @@
 }
 .middle__welcome .middle__welcome__pic {
   margin-top: 40px;
-  width: 45%;
-  height: auto;
-  max-height: 500px;
+  width: 450px;
+  height: 450px;
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .middle__welcome .middle__welcome__pic {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (min-width: 1500px) {
+  .middle__welcome .middle__welcome__pic {
+    width: 300px;
+    height: 300px;
+  }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 900px) {
   .middle__welcome__text {
     width: 55%;
     margin-right: 20px;
@@ -949,6 +960,18 @@ footer p {
 
 @media (min-width: 760px) {
   .hide_on_large {
+    display: none !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .hide_on_small_welcome {
+    display: none !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .hide_on_large_welcome {
     display: none !important;
   }
 }
