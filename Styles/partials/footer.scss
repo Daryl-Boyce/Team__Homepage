@@ -37,6 +37,10 @@
         margin: 10px 0px 15px 0px;
         font-size: 10px;
     }
+
+    @media (min-width: 760px) {
+        width: 33.333%
+    }
 }
 
 
@@ -52,6 +56,10 @@
     text-transform: capitalize;
     margin: 10px 0px 15px 0px;
     font-size: 1em;
+    
+    @media (min-width: 760px) {
+        width: 33.333%
+    }
 }
 
 .bottom__nav__sections {
@@ -67,6 +75,14 @@
     }
     li::before {
         content: ">  ";
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    @media (min-width: 760px) {
+        width: 33.333%
     }
 }
 

@@ -45,6 +45,11 @@
     border-radius: 1px;
     flex-direction: column;
     justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #2d325c;
+    }
 }
 
 .hero__inner__contact__button {
@@ -61,6 +66,11 @@
     border-radius: 1px;
     flex-direction: column;
     justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #d9d9d9;
+    }
 }
 
 // Welcome Section
@@ -88,7 +98,25 @@
         font-weight: bold;
     }
 
-    
+    @media (min-width: 760px) {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }    
+
+    .middle__welcome__pic {
+        margin-top: 40px;
+        width: 45%;
+        height: auto;
+        max-height: 500px;
+    }
+}
+
+.middle__welcome__text {
+
+    @media (min-width: 760px) {
+        width: 55%;
+        margin-right: 20px;
+    }
 }
 
 .middle__welcome__pic {
@@ -103,14 +131,11 @@
 
 .middle__welcome__header{
         color: $main;
-
 }
 
 .middle__welcome__header__break {
     display: flex;
-    width: 70%;
-    margin-left: 120px;
-
+    width: 100%;
 }
 
 
@@ -135,6 +160,11 @@
     border-radius: 1px;
     margin: 15px 0px 15px 0px;
     padding-top: 2px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #d9d9d9;
+    }
 }
 
  // Quote Section
