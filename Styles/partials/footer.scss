@@ -15,6 +15,11 @@
         color: $secondary;
         text-decoration: none;
     }
+
+    @media (min-width: 760px) {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
 .bottom__nav__license {
