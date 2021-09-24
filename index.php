@@ -83,11 +83,11 @@
                     diam eros, vel ultrices sapien viverra at. 
                 </p>
             </div>
-            <div class= "middle__welcome__pic hide_on_small">
+            <div class= "middle__welcome__pic hide_on_small_welcome">
             </div>
         </div>
     </div>
-    <div class= "middle__welcome__pic hide_on_large">
+    <div class= "middle__welcome__pic hide_on_large_welcome">
     </div>
     
     <div class="container">
