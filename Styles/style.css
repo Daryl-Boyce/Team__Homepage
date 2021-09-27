@@ -733,6 +733,24 @@ footer p {
     justify-content: space-between;
   }
 }
+.accountant__cards :nth-child(1) .accountant__card__image {
+  background-image: url("../assets/employee_1.jpg");
+}
+.accountant__cards :nth-child(2) .accountant__card__image {
+  background-image: url("../assets/employee_2.jpg");
+}
+.accountant__cards :nth-child(3) .accountant__card__image {
+  background-image: url("../assets/employee_3.jpg");
+}
+.accountant__cards :nth-child(4) .accountant__card__image {
+  background-image: url("../assets/employee_4.jpg");
+}
+.accountant__cards :nth-child(5) .accountant__card__image {
+  background-image: url("../assets/employee_5.jpg");
+}
+.accountant__cards :nth-child(6) .accountant__card__image {
+  background-image: url("../assets/employee_6.jpg");
+}
 
 .accountant__card {
   display: flex;
