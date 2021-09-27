@@ -46,10 +46,10 @@
                 </div>
 
                 <div class="hero__inner__button__760">
-                    <div class="hero__inner__services__button">
+                    <div class="hero__inner__services__button__760">
                         See our services
                     </div>
-                    <div class="hero__inner__contact__button">
+                    <div class="hero__inner__contact__button__760">
                         Contact us today
                     </div>
                 </div>
