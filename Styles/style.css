@@ -271,6 +271,16 @@
   margin: 250px 0px 0px 15px;
   color: #23284c;
 }
+@media (min-width: 900px) {
+  .quote__banner i:nth-child(3) {
+    margin: 125px 0px 10px 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .quote__banner i:nth-child(3) {
+    margin: 75px 0px 10px 15px;
+  }
+}
 
 .quote__banner__block {
   display: flex;
