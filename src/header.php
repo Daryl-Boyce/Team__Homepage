@@ -24,7 +24,7 @@ echo '
                 <li><a href="/pair-project/index.php">Home</a></li>
                 <li><a href="/pair-project/accountants.php">Switch Accountants</a></li>
                 <li><a href="/pair-project/faqs.php">FAQ&apos;s</a></li>
-                <li><a href="/pair-project/contact.php">Contact US</a></li>
+                <li><a href="/pair-project/contact.php">Contact Us</a></li>
             </ul> 
             
             <div class="phone_contact">
@@ -37,7 +37,7 @@ echo '
                     <li><a href="/pair-project/index.php">Home</a></li>
                     <li><a href="/pair-project/accountants.php">Switch Accountants</a></li>
                     <li><a href="/pair-project/faqs.php">FAQ&apos;s</a></li>
-                    <li><a href="/pair-project/contact.php">Contact US</a></li>
+                    <li><a href="/pair-project/contact.php">Contact Us</a></li>
                 </ul> 
             </div>
         </nav>
