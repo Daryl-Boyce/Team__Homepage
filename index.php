@@ -59,41 +59,45 @@
         <!--------------->
         <!-- Middle Welcome -->
         <div class="middle__welcome">
-            <h2 class="middle__welcome__header">
-                Welcome
-            </h2>
-            <hr class="middle__welcome__header__break">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Phasellus leo enim, gravida luctus
-                maximus et, varius at sapien. Sed non nunc est.
-                Nulla elementum imperdiet magna, sed euismod massa
-                sodales sit amet. Proin congue pharetra sem ac volutpat.
-                Maecenas rhoncus felis sed metus tincidunt vehicula.
-            </p>
-            <p>
-                Nunc ullamcorper vel augue sed pharetra. Sed posuere
-                felis eget mi cursus, quis rhoncus diam facilisis.
-                Nunc suscipit sem id nibh mattis efficitur.
-                Donec posuere mattis suscipit. Fusce vehicula imperdiet
-                tempus. Nam ut tempus turpis. Nunc sollicitudin pulvinar
-                turpis nec viverra.
-            </p>
-            <p>
-                Fusce tempus, sapien ut aliquam consectetur, metus velit
-                imperdiet velit, sit amet mollis urna velit a massa.
-                Aliquam ante urna, molestie porttitor dolor nec, porttitor
-                luctus lorem. Nulla nec arcu auctor, accumsan quam non,
-                blandit ex. Maecenas tincidunt imperdiet orci, vel dignissim
-                mi volutpat non. Cras ullamcorper dapibus nunc at egestas.
-            </p>
-            <p>
-                Sed vitae venenatis quam, sed commodo velit. Etiam molestie
-                diam eros, vel ultrices sapien viverra at. 
-            </p>
+            <div class="middle__welcome__text">
+                <h2 class="middle__welcome__header">
+                    Welcome
+                </h2>
+                <hr class="middle__welcome__header__break">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Phasellus leo enim, gravida luctus
+                    maximus et, varius at sapien. Sed non nunc est.
+                    Nulla elementum imperdiet magna, sed euismod massa
+                    sodales sit amet. Proin congue pharetra sem ac volutpat.
+                    Maecenas rhoncus felis sed metus tincidunt vehicula.
+                </p>
+                <p>
+                    Nunc ullamcorper vel augue sed pharetra. Sed posuere
+                    felis eget mi cursus, quis rhoncus diam facilisis.
+                    Nunc suscipit sem id nibh mattis efficitur.
+                    Donec posuere mattis suscipit. Fusce vehicula imperdiet
+                    tempus. Nam ut tempus turpis. Nunc sollicitudin pulvinar
+                    turpis nec viverra.
+                </p>
+                <p>
+                    Fusce tempus, sapien ut aliquam consectetur, metus velit
+                    imperdiet velit, sit amet mollis urna velit a massa.
+                    Aliquam ante urna, molestie porttitor dolor nec, porttitor
+                    luctus lorem. Nulla nec arcu auctor, accumsan quam non,
+                    blandit ex. Maecenas tincidunt imperdiet orci, vel dignissim
+                    mi volutpat non. Cras ullamcorper dapibus nunc at egestas.
+                </p>
+                <p>
+                    Sed vitae venenatis quam, sed commodo velit. Etiam molestie
+                    diam eros, vel ultrices sapien viverra at. 
+                </p>
+            </div>
+            <div class= "middle__welcome__pic hide_on_small_welcome">
+            </div>
         </div>
     </div>
-    <div class= "middle__welcome__pic">
+    <div class= "middle__welcome__pic hide_on_large_welcome">
     </div>
     
     <div class="container">
