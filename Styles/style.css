@@ -22,7 +22,6 @@
 @media (min-width: 760px) {
   .hero__inner {
     width: 100%;
-    height: 30%;
     text-align: right;
     align-items: flex-end;
   }
@@ -31,7 +30,7 @@
 @media (min-width: 760px) {
   .hero__inner__header {
     display: flex;
-    width: 35%;
+    width: 50%;
     height: 40%;
     padding-top: 150px;
     padding-right: 30px;
@@ -42,13 +41,11 @@
 }
 @media (min-width: 760px) {
   .hero__inner__header h1 {
-    width: 60%;
-    font-size: 50px;
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 760px) {
   .hero__inner__header h2 {
-    width: 56%;
     padding: 10px 0px 0px 30px;
   }
 }
@@ -56,10 +53,10 @@
 .hero__inner__break {
   width: 100%;
 }
-@media (max-width: 759px) {
+@media (min-width: 759px) {
   .hero__inner__break {
     width: 100%;
-    margin-left: 50px;
+    margin: 0px;
   }
 }
 
@@ -120,7 +117,7 @@
   cursor: pointer;
   background-color: #d9d9d9;
 }
-@media (max-width: 760px) {
+@media (max-width: 761px) {
   .hero__inner__contact__button__760 {
     display: none;
   }
@@ -218,7 +215,7 @@
   display: flex;
   height: 300px;
   width: 100%;
-  background-image: url("../assets/clac__pen.png");
+  background-image: url("../assets/pen__paper.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
