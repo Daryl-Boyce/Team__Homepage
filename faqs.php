@@ -27,6 +27,8 @@
     ?>
         <div class="faq_section">
             <div class="faq_text">
+                <div class="faq__image">
+                </div>
                 <div class="faq_header">
                     <h3>
                         FAQ's

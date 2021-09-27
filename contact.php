@@ -102,7 +102,7 @@
                             <label for="message">Message</label>
                             <input type="textarea" value id="message" name="message">
 
-                            <label for="checkbox">Do you agree?</label>
+                            <label for="checkbox">Do you agree to our data protection declaration?</label>
                             <input type="checkbox" id="checkbox" name="checkbox" value=1> 
 
                             <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
