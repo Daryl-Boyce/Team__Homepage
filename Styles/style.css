@@ -32,7 +32,6 @@
     display: flex;
     width: 50%;
     height: 40%;
-    padding-top: 150px;
     padding-right: 30px;
     flex-direction: column;
     align-items: flex-end;
@@ -64,8 +63,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  height: 10%;
-  padding: 60px;
+  padding-bottom: 20px;
 }
 @media (max-width: 760px) {
   .hero__inner__button__760 {
@@ -81,7 +79,7 @@
   background-color: #23284c;
   color: #fff;
   line-height: 17px;
-  margin: 40px 20px 0px 0px;
+  margin: 10px 20px 10px 0px;
   border: 1px solid #fff;
   border-radius: 1px;
   flex-direction: column;
@@ -107,7 +105,7 @@
   background-color: #fff;
   color: #23284c;
   line-height: 20px;
-  margin-top: 20px;
+  margin: 10px 0;
   border: 1px solid #23284c;
   border-radius: 1px;
   flex-direction: column;

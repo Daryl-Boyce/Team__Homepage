@@ -37,21 +37,20 @@
                         Professional and affordable service contact
                         us today for a free consultation
                     </h2>
-                </div>
-                <div class="hero__inner__services__button">
-                    See our services
-                </div>
-                <div class="hero__inner__contact__button">
-                    Contact us today
-                </div>
-
-                <div class="hero__inner__button__760">
+                    <div class="hero__inner__button__760">
                     <div class="hero__inner__services__button__760">
                         See our services
                     </div>
                     <div class="hero__inner__contact__button__760">
                         Contact us today
                     </div>
+                </div>
+                </div>
+                <div class="hero__inner__services__button">
+                    See our services
+                </div>
+                <div class="hero__inner__contact__button">
+                    Contact us today
                 </div>
 
             </div>
