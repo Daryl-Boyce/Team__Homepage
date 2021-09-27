@@ -10,12 +10,13 @@
 
 .accountant__cards {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
-    @media (min-width: 760px) {
+
+    @media (min-width: 1027px) {
         flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -31,7 +32,7 @@
     }
 
     @media (max-width: 759px) {
-        margin-bottom: 20px;
+        margin: 20px;
     }
 }
 
